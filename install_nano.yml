@@ -1,5 +1,4 @@
 hosts: all
-become: true
 tasks:
   - name: install nano
     ansible.builtin.dnf:
