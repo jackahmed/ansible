@@ -3,4 +3,4 @@
   - name: install nano
     ansible.builtin.dnf:
       name: nano
-      state: present
+      state: absent
