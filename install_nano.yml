@@ -1,5 +1,5 @@
-hosts: all
-tasks:
+- hosts: all
+  tasks:
   - name: install nano
     ansible.builtin.dnf:
       name: nano
